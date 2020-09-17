@@ -1,10 +1,26 @@
 /* DEFAULT CSS */
-html
-{
+html{
 	background-color:#9bf2b3;
 }
-h1
-{
-	font-family:"Comic Sans MS";
-	color:orange;
+h1{
+	font-family:"Courier New";
+	color:darkorange;
+}
+
+.linkcontainer{
+	height:300px;
+	flex-direction: row;
+	justify-content: left;
+}
+
+/* CLASS CSS */
+.githublink{
+	background:url("images/GitHubMarkLinkSprite.png") no-repeat 0 0;
+	height:64px;
+	width:64px;
+
+}
+.githublink:hover{
+	/*background:url("images/GitHubMark.png") no-repeat 0 -100px;*/
+	background-position: 0 -64px;
 }
