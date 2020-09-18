@@ -24,3 +24,10 @@ h1{
 	/*background:url("images/GitHubMark.png") no-repeat 0 -100px;*/
 	background-position: 0 -64px;
 }
+
+.linkedinlink{
+
+}
+.linkedinlink:hover{
+	background-position: 0 -64px;
+}
