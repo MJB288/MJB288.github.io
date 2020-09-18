@@ -35,10 +35,10 @@ h1{
 
 
 
-.linkedinlink{
+.linkedinlogo{
 
 }
-.linkedinlink:hover{
+.linkedinlogo:hover{
 	background-position: 0 -64px;
 }
 
@@ -58,3 +58,14 @@ h1{
 
 
 /* PROJECTS CSS */
+.projects{
+	background-color: aqua;
+	border-style: solid;
+	border-color: yellow;
+	width: 70%;
+	height: auto;
+	align-self: center;
+
+	margin-right: auto;
+	margin-left: auto;
+}
