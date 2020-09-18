@@ -7,23 +7,33 @@ h1{
 	color:darkorange;
 }
 
+/* CLASS CSS */
+
+/* The LINK Section */
 .linkcontainer{
 	height:300px;
 	flex-direction: row;
 	justify-content: left;
 }
 
-/* CLASS CSS */
-.githublink{
+.githublogo{
 	background:url("images/GitHubMarkLinkSprite.png") no-repeat 0 0;
 	height:64px;
 	width:64px;
-
 }
-.githublink:hover{
-	/*background:url("images/GitHubMark.png") no-repeat 0 -100px;*/
+.githublogo:hover{
 	background-position: 0 -64px;
 }
+
+.githublink{
+	height:64px;
+	width:64px;
+	/*background-color: pink;*/
+	display: block;
+
+}
+
+
 
 .linkedinlink{
 
@@ -31,3 +41,20 @@ h1{
 .linkedinlink:hover{
 	background-position: 0 -64px;
 }
+
+/* SUMMARY CSS */
+.summary{
+	align-self: center;
+	background-color: aqua;
+	border-style: solid;
+	border-color: blue;
+	
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	height: auto;
+}
+
+
+/* PROJECTS CSS */
