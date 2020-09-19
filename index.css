@@ -61,11 +61,14 @@ h1{
 .projects{
 	background-color: aqua;
 	border-style: solid;
-	border-color: yellow;
+	border-color: gold;
 	width: 70%;
 	height: auto;
 	align-self: center;
 
 	margin-right: auto;
 	margin-left: auto;
+}
+.projectdesc{
+	text-indent: initial;
 }
