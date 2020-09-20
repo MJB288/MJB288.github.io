@@ -57,7 +57,7 @@ h1{
 }
 
 
-/* PROJECTS CSS */
+/* PROJECTS SECTION CSS */
 .projects{
 	background-color: aqua;
 	border-style: solid;
@@ -68,7 +68,13 @@ h1{
 
 	margin-right: auto;
 	margin-left: auto;
+	font-size: 32px;
 }
 .projectdesc{
-	text-indent: initial;
+	text-indent: 50px;
+	font-size: 16px;
+}
+.projectTitle{
+	text-align: center;
+	font-size: 36px;
 }
