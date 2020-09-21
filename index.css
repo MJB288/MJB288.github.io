@@ -11,18 +11,21 @@ h1{
 
 /* The LINK Section */
 .linkcontainer{
-	height:300px;
+	height:64px;
 	flex-direction: row;
 	justify-content: left;
+	display: flex;
 }
 
 .githublogo{
 	background:url("images/GitHubMarkLinkSprite.png") no-repeat 0 0;
 	height:64px;
 	width:64px;
+	margin-right:5px;
 }
 .githublogo:hover{
 	background-position: 0 -64px;
+	margin-right:5px;
 }
 
 .githublink{
@@ -30,13 +33,16 @@ h1{
 	width:64px;
 	/*background-color: pink;*/
 	display: block;
-
+	margin-right:5px;
 }
 
 
 
 .linkedinlogo{
-
+	background:url("images/linkedin-sprite.png");
+	height:64px;
+	width:64px;
+	margin-right:5px;
 }
 .linkedinlogo:hover{
 	background-position: 0 -64px;
