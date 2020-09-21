@@ -5,6 +5,7 @@ html{
 h1{
 	font-family:"Courier New";
 	color:darkorange;
+	text-align: center;
 }
 
 /* CLASS CSS */
@@ -13,7 +14,7 @@ h1{
 .linkcontainer{
 	height:64px;
 	flex-direction: row;
-	justify-content: left;
+	justify-content: center;
 	display: flex;
 }
 
@@ -83,10 +84,15 @@ h1{
 }
 
 .projectdesc{
-	text-indent: 50px;
+	/*text-indent: 50px;*/
+	margin-left: 50px;
 	font-size: 16px;
 }
 .projectTitle{
 	text-align: center;
 	font-size: 36px;
+}
+
+#wipNote{
+	text-align: center;
 }
