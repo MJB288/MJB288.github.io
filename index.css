@@ -28,7 +28,7 @@ h1{
 	margin-right:5px;
 }
 
-.githublink{
+.githubproflink{
 	height:64px;
 	width:64px;
 	/*background-color: pink;*/
@@ -76,6 +76,12 @@ h1{
 	margin-left: auto;
 	font-size: 32px;
 }
+
+.project{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 .projectdesc{
 	text-indent: 50px;
 	font-size: 16px;
