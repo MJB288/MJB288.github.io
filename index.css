@@ -75,12 +75,16 @@ h1{
 
 	margin-right: auto;
 	margin-left: auto;
-	font-size: 32px;
+	font-size: 24px;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .project{
 	padding-right: 10px;
 	padding-left: 10px;
+	font-family: "Trebuchet MS";
 }
 
 .projectdesc{
@@ -96,3 +100,21 @@ h1{
 #wipNote{
 	text-align: center;
 }
+
+/*SKILLS CSS*/
+.skills{
+	background-color: aqua;
+	border-style: solid;
+	border-color: green;
+	width: 70%;
+	height: auto;
+	align-self: center;
+
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 24px;
+}
+.skillsec{
+	font-size: 16px;
+}
+
