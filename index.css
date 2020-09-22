@@ -1,10 +1,11 @@
 /* DEFAULT CSS */
 html{
-	background-color:#9bf2b3;
+	background-color:#fff99e;
+	font-family: "Trebuchet MS";
 }
 h1{
-	font-family:"Courier New";
-	color:darkorange;
+	/*font-family:"Courier New";*/
+	/*color:darkorange;*/
 	text-align: center;
 }
 
@@ -52,23 +53,27 @@ h1{
 /* SUMMARY CSS */
 .summary{
 	align-self: center;
-	background-color: aqua;
+	background-color: #bffffb;
 	border-style: solid;
 	border-color: blue;
 	
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
-	width: 70%;
+	width: 68%;
 	height: auto;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 
 /* PROJECTS SECTION CSS */
 .projects{
-	background-color: aqua;
+	background-color: #bffffb;
 	border-style: solid;
-	border-color: gold;
+	border-color: blue;
 	width: 70%;
 	height: auto;
 	align-self: center;
@@ -84,7 +89,6 @@ h1{
 .project{
 	padding-right: 10px;
 	padding-left: 10px;
-	font-family: "Trebuchet MS";
 }
 
 .projectdesc{
@@ -95,6 +99,8 @@ h1{
 .projectTitle{
 	text-align: center;
 	font-size: 36px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #wipNote{
