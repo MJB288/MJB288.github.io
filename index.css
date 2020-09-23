@@ -50,6 +50,19 @@ h1{
 	background-position: 0 -64px;
 }
 
+.emailsprite{
+	background:url("images/envelopeSprite.png");
+	height:41px;
+	width:64px;
+	margin-right:5px;
+	margin-top: 13px;
+}
+
+.emailsprite:hover{
+	background-position: 0 -41px;
+}
+
+
 /* SUMMARY CSS */
 .summary{
 	align-self: center;
