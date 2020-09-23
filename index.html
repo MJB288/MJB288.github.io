@@ -14,11 +14,11 @@
 		<div class="linkcontainer">
 			<a class="githubproflink" href="https://github.com/MJB288"><div class="githublogo"></div></a><!--<img src="images/GitHubMark.png"></img>-->
 			<a class="linkedinlink" href="https://www.linkedin.com/in/matthew-borbonus-b088791a2"><div class="linkedinlogo"></div></a>
-			<a class="emaillink" href="mailto:mborb01@yahoo.com"><div class="emailsprite"></div></a>
+			<a class="emaillink" href="mailto:mborb01@yahoo.com"><div class="emailsprite"></div></a> 
 		</div>
 		<p id="wipNote">A note to anyone peeking in on this site: This is a work in progress. The current state of the CSS is not the final state, especially the color scheme that is currently going on.</p>
 		<p class="summary">
-			Hello There! I am an aspiring software developer looking to make a difference. I have graduated from the University of Pittsburgh December 2019 with a Bachelor of Science in Computer Science, and am currently open to various kinds of Software Development. I am dedicated and thorough in my work, and will ensure that the needs of the client will be met. 
+			Hello there! I am an aspiring software developer looking to make a difference. I graduated from the University of Pittsburgh in December 2019 with a Bachelor of Science in Computer Science, and am currently open to various kinds of Software Development. I am dedicated and thorough in my work and will deliver quality solutions to the tasks at hand. 
 		</p>
 		<div class="projects">
 			<div class="projectTitle">Projects</div>
@@ -32,14 +32,14 @@
 			<div id="reddit" class="project">
 				Reddit Comment Analysis <div class="repolinkimg"></div>
 				<div class="projectdesc">
-					<p>Analyzes the linguistic differences between comments on subreddits on the social media platform Reddit using machine learning. Utilizes python with libraries like numpy and, pandas for data prep and analysis, and sklearn for machine learning. Reports and findings can be found on the repository.</p>
+					<p>Analyzes the linguistic differences between comments on subreddits on the social media platform Reddit using machine learning. Utilizes python with libraries like numpy and pandas for data prep and analysis, and sklearn for machine learning. Reports and findings can be found on the repository.</p>
 					<p><a class="repolink" href="https://github.com/Data-Science-for-Linguists-2019/Reddit-Comment-Analysis">GitHub Repository</a></p>
 				</div>
 			</div>
 			<div id="edgar" class="project">
 				Catch and Release - An Edgar Allen Poe Project <div class="repolinkimg"></div>
 				<div class="projectdesc">
-					<p>A project to analyze the the difference in language between themese of capture and release in the literature works of Edgar Allen Poe. 3 person team with a supervisor acting as the Scrum Master in an Agile environment. Marked down the texts using XML and then utilized XSLT and SVG to analyze our data. My team published our results using HTML5 and CSS on this <a class="repolink" href="http://poe.obdurodon.org/">project website</a>.</p>
+					<p>A project to analyze the the difference in language between themese of capture and release in the literature works of Edgar Allen Poe. 3 person team with a supervisor acting as the Scrum Master in an Agile environment. Marked down the texts using XML and then utilized XSLT and SVG to analyze our data. My team published our results using HTML5 and CSS on the project website linked below.</p>
 					<p><a class="repolink" href="http://poe.obdurodon.org/">Project Website</a></p>
 					<p><a class="repolink" href="https://github.com/Ethandaniel47/EdgarAllanPoeProject">GitHub Repository</a></p>
 				</div>
@@ -47,14 +47,14 @@
 			<div id="ordis" class="project">
 				Discord Bot
 				<div class="projectdesc">
-					<p>An interactable bot user for the voice chat service known as Discord. Contains some small functions like rolling a specified number of X sided dice, playing locally stored sound files on a voice call, also moving large groups of people to different channels quickly. Primary functionaility is to create event notifcations in which the bot user will issue a reminder notice in the chat to help organize events and remind people in case they forgot. Coded in python and uses the discord.py library.</p>
-					<p>To add some personal interactions amongst various friends, I hardcoded some information like their usernames in certain places. Also, there is a string token that I use for the Bot account on discord, that if leaked would give someone else control. Either way, for privacy concerns this project is on a private repository. However, <a class="ordisdemolink">here are some demo GIFs</a> of some of the bot's functions</p>
+					<p>An interactable bot user for the voice chat service known as Discord. It contains some small functions like rolling a specified number of X sided dice, playing locally stored sound files on a voice call, and also moving large groups of people to different voice channels quickly. Primary functionaility is to create event notifcations in which the bot user will issue a reminder notice in the chat to help organize events and remind people in case they forgot. Coded in python and uses the Discord.py library.</p>
+					<p>To add some personal interactions amongst various friends, I hardcoded some information like their usernames in certain places. Also, there is a string token that I use for the bot account on Discord, that if leaked would give someone else control. Either way, for privacy concerns this project is on a private repository. However, <a class="ordisdemolink">here are some demo GIFs</a> of some of the bot's functions.</p>
 				</div>
 			</div>
 			<div id="mabitools" class="project">
 				Mabi-Tools <div class="repolinkimg"></div>
 				<div class="projectdesc">
-					<p>A collection of tools I'm designing for the MMORPG Mabinogi. They do not directly interface with the game, instead they take user input and display data or visuals to help make decisions. Currently, only one tool is completed, a tool designed to help players with the game's commerce system.</p>
+					<p>A collection of tools I'm designing for the MMORPG Mabinogi. They do not directly interface with the game, instead they take user input and display data or visuals to help make decisions. Currently, only one tool is completed, a tool designed to help players with the game's commerce system. Another tool, a cooking meter, is currently in development.</p>
 					<p><a class="repolink" href="https://github.com/MJB288/Mabi-Tools">GitHub Repository</a></p>
 				</div>
 			</div>
@@ -70,7 +70,7 @@
 			<div class="project">
 				Libraries/Frameworks
 				<div class="projectdesc">
-					<p>pandas, numpy, discord.py, JUnit, Mockito, Some .Net Experience</p>
+					<p>pandas, numpy, Discord.py, JUnit, Mockito, Some .Net Experience</p>
 				</div>
 			</div>
 			<div class="project">
@@ -80,6 +80,18 @@
 				</div>
 			</div>
 		</div>
+		<div class="popup" onclick="myFunction()">Click me!
+  			<span class="popuptext" id="myPopup">Popup text... <img src="images/envelopeSprite.png"></span></span>
+
+		</div> 
+
+		<script>
+		// When the user clicks on <div>, open the popup
+		function myFunction() {
+ 			var popup = document.getElementById("myPopup");
+  			popup.classList.toggle("show");
+		}
+		</script>
 	</body>
 
 </html>

@@ -1,12 +1,13 @@
 /* DEFAULT CSS */
 html{
-	background-color:#fff99e;
+	background-color:#F7DCB4; /*ff8c69 */
 	font-family: "Trebuchet MS";
 }
 h1{
 	/*font-family:"Courier New";*/
 	/*color:darkorange;*/
 	text-align: center;
+	font-size: 42px;
 }
 
 /* CLASS CSS */
@@ -20,14 +21,13 @@ h1{
 }
 
 .githublogo{
-	background:url("images/GitHubMarkLinkSprite.png") no-repeat 0 0;
+	background:url("images/GitHub-MarkLinkSprite-Red.png") no-repeat 0 0;
 	height:64px;
 	width:64px;
-	margin-right:5px;
+	margin-right:10px;
 }
 .githublogo:hover{
 	background-position: 0 -64px;
-	margin-right:5px;
 }
 
 .githubproflink{
@@ -41,17 +41,18 @@ h1{
 
 
 .linkedinlogo{
-	background:url("images/linkedin-sprite.png");
+	background:url("images/linkedin-sprite-red.png");
 	height:64px;
 	width:64px;
-	margin-right:5px;
+	margin-right:15px;
+	margin-left:10px;
 }
 .linkedinlogo:hover{
 	background-position: 0 -64px;
 }
 
 .emailsprite{
-	background:url("images/envelopeSprite.png");
+	background:url("images/envelope-sprite-red.png");
 	height:41px;
 	width:64px;
 	margin-right:5px;
@@ -62,13 +63,26 @@ h1{
 	background-position: 0 -41px;
 }
 
+.emaillink{
+	width: 64px;
+	height: 41px;
+}
+
+.repolink{
+	color:#e34720;
+}
+
+.repolink:hover{
+	color:red;
+}
+
 
 /* SUMMARY CSS */
 .summary{
 	align-self: center;
-	background-color: #bffffb;
+	background-color: #fab7a2;
 	border-style: solid;
-	border-color: blue;
+	border-color: #db6446;
 	
 	text-align: center;
 	margin-right: auto;
@@ -79,14 +93,17 @@ h1{
 	padding-right: 1%;
 	padding-top: 5px;
 	padding-bottom: 5px;
+
+	font-size: 18px;
+	/*font-weight: bold*/
 }
 
 
 /* PROJECTS SECTION CSS */
 .projects{
-	background-color: #bffffb;
+	background-color: #fab7a2;
 	border-style: solid;
-	border-color: blue;
+	border-color: #db6446;
 	width: 70%;
 	height: auto;
 	align-self: center;
@@ -95,8 +112,8 @@ h1{
 	margin-left: auto;
 	font-size: 24px;
 
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .project{
@@ -136,4 +153,59 @@ h1{
 .skillsec{
 	font-size: 16px;
 }
+
+
+
+ /* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+} 
 
