@@ -20,6 +20,7 @@ h1{
 	display: flex;
 }
 
+
 .githublogo{
 	background:url("images/GitHub-MarkLinkSprite-Red.png") no-repeat 0 0;
 	height:64px;
@@ -133,6 +134,30 @@ h1{
 	margin-bottom: 5px;
 }
 
+.GIFdemo{
+	width:300px;
+	height:169px;
+	object-fit:contain;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.GIFdemo:hover{
+	cursor: pointer;
+}
+
+.bigger{
+	width:1000px;
+	height:600px;
+	object-fit:contain;
+}
+
+.GIFcontainer{
+	justify-content: center;
+	flex-direction: row;
+	display: flex;
+}
+
 #wipNote{
 	text-align: center;
 }
@@ -161,6 +186,7 @@ h1{
   position: relative;
   display: inline-block;
   cursor: pointer;
+  justify-content: center;
 }
 
 /* The actual popup (appears on top) */

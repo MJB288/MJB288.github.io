@@ -39,7 +39,7 @@
 			<div id="edgar" class="project">
 				Catch and Release - An Edgar Allen Poe Project <div class="repolinkimg"></div>
 				<div class="projectdesc">
-					<p>A project to analyze the the difference in language between themese of capture and release in the literature works of Edgar Allen Poe. 3 person team with a supervisor acting as the Scrum Master in an Agile environment. Marked down the texts using XML and then utilized XSLT and SVG to analyze our data. My team published our results using HTML5 and CSS on the project website linked below.</p>
+					<p>A project to analyze the the difference in language between themese of capture and release in the literature works of Edgar Allen Poe. I was 3 person team with a supervisor acting as the Scrum Master in an Agile environment. We each marked down a portion of the texts using XML and then utilized XSLT and SVG to analyze our data. My team published our results using HTML5 and CSS on the project website linked below.</p>
 					<p><a class="repolink" href="http://poe.obdurodon.org/">Project Website</a></p>
 					<p><a class="repolink" href="https://github.com/Ethandaniel47/EdgarAllanPoeProject">GitHub Repository</a></p>
 				</div>
@@ -48,7 +48,11 @@
 				Discord Bot
 				<div class="projectdesc">
 					<p>An interactable bot user for the voice chat service known as Discord. It contains some small functions like rolling a specified number of X sided dice, playing locally stored sound files on a voice call, and also moving large groups of people to different voice channels quickly. Primary functionaility is to create event notifcations in which the bot user will issue a reminder notice in the chat to help organize events and remind people in case they forgot. Coded in python and uses the Discord.py library.</p>
-					<p>To add some personal interactions amongst various friends, I hardcoded some information like their usernames in certain places. Also, there is a string token that I use for the bot account on Discord, that if leaked would give someone else control. Either way, for privacy concerns this project is on a private repository. However, <a class="ordisdemolink">here are some demo GIFs</a> of some of the bot's functions.</p>
+					<p>To add some personal interactions amongst various friends, I hardcoded some information like their usernames in certain places. Also, there is a string token that I use for the bot account on Discord, that if leaked would give someone else control. Either way, for privacy concerns this project is on a private repository. However, <a class="ordisdemolink">here are some demo GIFs</a> of some of the bot's functions. (Click to Resize)</p>
+				</div>
+				<div class="GIFcontainer">
+					<img class="GIFdemo" id="gif1" src="images/demoGIFBot1-2.gif" onclick="toggleGifSize(this.id);"></img>
+					<img class="GIFdemo" id="gif2" src="images/demoGIFBot2-1.gif" onclick="toggleGifSize(this.id);"></img>
 				</div>
 			</div>
 			<div id="mabitools" class="project">
@@ -76,12 +80,12 @@
 			<div class="project">
 				Additional Skills
 				<div class="projectdesc">
-					<p>Git, Visual Studio, Postgres, Jupyter Notebook, SDLC, Patterns and Anti-Patterns</p>
+					<p>Git, Visual Studio, Matlab, Postgres, Jupyter Notebook, SDLC, Patterns and Anti-Patterns</p>
 				</div>
 			</div>
 		</div>
 		<div class="popup" onclick="myFunction()">Click me!
-  			<span class="popuptext" id="myPopup">Popup text... <img src="images/envelopeSprite.png"></span></span>
+  			<span class="popuptext" id="myPopup">Popup text... <img src="demoGIFBot1-2.gif"></span></span>
 
 		</div> 
 
@@ -91,6 +95,12 @@
  			var popup = document.getElementById("myPopup");
   			popup.classList.toggle("show");
 		}
+
+		function toggleGifSize(click_id){
+			var gifElem = document.getElementById(click_id);
+			gifElem.classList.toggle("bigger");
+		}
+
 		</script>
 	</body>
 
