@@ -16,7 +16,7 @@
 			<a class="linkedinlink" href="https://www.linkedin.com/in/matthew-borbonus-b088791a2"><div class="linkedinlogo"></div></a>
 			<a class="emaillink" href="mailto:mborb01@yahoo.com"><div class="emailsprite"></div></a> 
 		</div>
-		<p id="wipNote">A note to anyone peeking in on this site: This is a work in progress. The current state of the CSS is not the final state, especially the color scheme that is currently going on.</p>
+		<p id="wipNote"></p>
 		<p class="summary">
 			Hello there! I am an aspiring software developer looking to make a difference. I graduated from the University of Pittsburgh in December 2019 with a Bachelor of Science in Computer Science, and am currently open to various kinds of Software Development. I am dedicated and thorough in my work and will deliver quality solutions to the tasks at hand. 
 		</p>
@@ -52,7 +52,7 @@
 				</div>
 				<div class="GIFcontainer">
 					<img class="GIFdemo" id="gif1" src="./images/demogifBot1-3.gif" onclick="toggleGifSize(this.id);"></img>
-					<img class="GIFdemo" id="gif2" src="./images/demoGifBot2-3.gif" onclick="toggleGifSize(this.id);"></img>
+					<img class="GIFdemo" id="gif2" src="./images/demoGifBot2-3-2.gif" onclick="toggleGifSize(this.id);"></img>
 				</div>
 			</div>
 			<div id="mabitools" class="project">
@@ -84,18 +84,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="popup" onclick="myFunction()">Click me!
-  			<span class="popuptext" id="myPopup">Popup text... <img src="demoGIFBot1-2.gif"></span></span>
-
-		</div> 
 
 		<script>
-		// When the user clicks on <div>, open the popup
-		function myFunction() {
- 			var popup = document.getElementById("myPopup");
-  			popup.classList.toggle("show");
-		}
-
 		function toggleGifSize(click_id){
 			var gifElem = document.getElementById(click_id);
 			gifElem.classList.toggle("bigger");
